@@ -10,44 +10,44 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 	{
-		title: "Astro",
+		title: "Founder of Caligo Security",
+		desc: "The AI-driven Cloud Security Platform",
+		href: "https://caligosec.ee",
+	},
+	{
+		title: "Senior Security Engineer",
 		desc: "Build fast websites, faster.",
 		href: "https://astro.build",
 	},
 	{
-		title: "Astro Assets",
+		title: "DevSecOps",
 		desc: "Built-in optimized asset support.",
 		href: "https://docs.astro.build/en/guides/assets/",
 	},
 	{
-		title: "Tailwind CSS",
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
+		title: "Cloud Security Architect",
+		desc: "Build secure cloud ecosystems",
 		href: "https://tailwindcss.com",
 	},
 	{
-		title: "Markdown",
+		title: "API Security Architect",
 		desc: "Simple and easy-to-use markup language.",
 		href: "https://www.markdownguide.org/",
 	},
 	{
-		title: "MDX",
+		title: "Blue Team Member",
 		desc: "Markdown for the component era.",
 		href: "https://mdxjs.com/",
 	},
 	{
-		title: "Satori",
-		desc: "Generating png Open Graph images for blog posts.",
+		title: "Cybersecurity Architect Expert",
+		desc: "Microsoft certified engineer",
 		href: "https://github.com/vercel/satori",
 	},
 	{
-		title: "Pagefind",
+		title: "Compliance Assistant",
 		desc: "A fully static search library.",
 		href: "https://pagefind.app/",
-	},
-	{
-		title: "Astro Icon",
-		desc: "An easy to use Icon component for Astro.",
-		href: "https://github.com/natemoo-re/astro-icon#readme",
 	},
 ];
 ---
@@ -56,9 +56,7 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 	<section>
 		<h1 class="title mb-6">Hello World!</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, an example of how you can use this starter to create a personal
-			blog. If you want to know more about how you can customise me, add more posts, and make it
-			your own, click on one the github icon link below which will take you to my repo.
+			Hi, I’m Yusuf, this is my personal blog. I am working as Senior Security Engineer and talking about Cloud Security, CSPM, Cybersecurity Defense and Compliance processes such as SOC2, GDPR.
 		</p>
 		<SocialList />
 	</section>
@@ -75,7 +73,7 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 		</ul>
 	</section>
 	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Technologies</h2>
+		<h2 class="title mb-4 text-xl">Skills</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				cactusTech.map(({ href, title, desc }) => (

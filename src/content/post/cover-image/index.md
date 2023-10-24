@@ -1,6 +1,6 @@
 ---
 title: "Kaynak IP’ye göre AWS Erişiminin Engellenmesi"
-description: "AWS Best Practices"
+description: "AWS Best Practices - Kaynak IP’ye göre AWS Erişiminin Engellenmesi"
 publishDate: "24 October 2023"
 updatedDate: "24 October 2023"
 coverImage:
